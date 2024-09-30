@@ -1,0 +1,35 @@
+2024-09-30 02:00:54,328 INFO    MainThread:81933 [wandb_setup.py:_flush():76] Current SDK version is 0.17.6
+2024-09-30 02:00:54,328 INFO    MainThread:81933 [wandb_setup.py:_flush():76] Configure stats pid to 81933
+2024-09-30 02:00:54,328 INFO    MainThread:81933 [wandb_setup.py:_flush():76] Loading settings from /Users/brettyoung/.config/wandb/settings
+2024-09-30 02:00:54,328 INFO    MainThread:81933 [wandb_setup.py:_flush():76] Loading settings from /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/settings
+2024-09-30 02:00:54,328 INFO    MainThread:81933 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'api_key': '***REDACTED***'}
+2024-09-30 02:00:54,328 INFO    MainThread:81933 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-09-30 02:00:54,328 INFO    MainThread:81933 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'apply_and_mes_transformations.py', 'program_abspath': '/Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/apply_and_mes_transformations.py', 'program': '/Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/apply_and_mes_transformations.py'}
+2024-09-30 02:00:54,328 INFO    MainThread:81933 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-09-30 02:00:54,328 INFO    MainThread:81933 [wandb_init.py:_log_setup():521] Logging user logs to /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/logs/debug.log
+2024-09-30 02:00:54,329 INFO    MainThread:81933 [wandb_init.py:_log_setup():522] Logging internal logs to /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/logs/debug-internal.log
+2024-09-30 02:00:54,329 INFO    MainThread:81933 [wandb_init.py:init():559] calling init triggers
+2024-09-30 02:00:54,329 INFO    MainThread:81933 [wandb_init.py:init():566] wandb.init called with sweep_config: {}
+config: {}
+2024-09-30 02:00:54,329 INFO    MainThread:81933 [wandb_init.py:init():609] starting backend
+2024-09-30 02:00:54,329 INFO    MainThread:81933 [wandb_init.py:init():613] setting up manager
+2024-09-30 02:00:54,331 INFO    MainThread:81933 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-09-30 02:00:54,333 INFO    MainThread:81933 [wandb_init.py:init():621] backend started and connected
+2024-09-30 02:00:54,338 INFO    MainThread:81933 [wandb_init.py:init():716] updated telemetry
+2024-09-30 02:00:54,338 INFO    MainThread:81933 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2024-09-30 02:00:55,154 INFO    MainThread:81933 [wandb_run.py:_on_init():2438] communicating current version
+2024-09-30 02:00:55,224 INFO    MainThread:81933 [wandb_run.py:_on_init():2447] got version response upgrade_message: "wandb version 0.18.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-09-30 02:00:55,224 INFO    MainThread:81933 [wandb_init.py:init():800] starting run threads in backend
+2024-09-30 02:01:06,730 INFO    MainThread:81933 [wandb_run.py:_console_start():2416] atexit reg
+2024-09-30 02:01:06,730 INFO    MainThread:81933 [wandb_run.py:_redirect():2258] redirect: wrap_raw
+2024-09-30 02:01:06,730 INFO    MainThread:81933 [wandb_run.py:_redirect():2323] Wrapping output streams.
+2024-09-30 02:01:06,730 INFO    MainThread:81933 [wandb_run.py:_redirect():2348] Redirects installed.
+2024-09-30 02:01:06,731 INFO    MainThread:81933 [wandb_init.py:init():843] run started, returning control to user process
+2024-09-30 02:01:10,025 INFO    MainThread:81933 [wandb_run.py:_finish():2110] finishing run byyoung3/data_de-identification/j92bnp7d
+2024-09-30 02:01:10,026 INFO    MainThread:81933 [wandb_run.py:_atexit_cleanup():2377] got exitcode: 0
+2024-09-30 02:01:10,026 INFO    MainThread:81933 [wandb_run.py:_restore():2355] restore
+2024-09-30 02:01:10,026 INFO    MainThread:81933 [wandb_run.py:_restore():2361] restore done
+2024-09-30 02:01:22,587 INFO    MainThread:81933 [wandb_run.py:_footer_history_summary_info():4035] rendering history
+2024-09-30 02:01:22,589 INFO    MainThread:81933 [wandb_run.py:_footer_history_summary_info():4067] rendering summary
+2024-09-30 02:01:22,595 INFO    MainThread:81933 [wandb_run.py:_footer_sync_info():3994] logging synced files

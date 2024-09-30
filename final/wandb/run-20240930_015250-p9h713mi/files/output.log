@@ -1,0 +1,529 @@
+Transformations sorted by closeness to desired k-anonymity, l-diversity, and t-closeness values:
+Transformations Applied: Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Suppress Gender
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 5, L-Diversity: 3, T-Closeness: 0.2500
+Total Error: 0.1
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Suppress Gender
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 5, L-Diversity: 3, T-Closeness: 0.2500
+Total Error: 0.1
+Transformations Applied: Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Suppress Gender, Bin Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 5, L-Diversity: 3, T-Closeness: 0.2500
+Total Error: 0.1
+Transformations Applied: Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Suppress Gender, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 5, L-Diversity: 3, T-Closeness: 0.2500
+Total Error: 0.1
+Transformations Applied: Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Suppress Gender, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 5, L-Diversity: 3, T-Closeness: 0.2500
+Total Error: 0.1
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Suppress Gender, Bin Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 5, L-Diversity: 3, T-Closeness: 0.2500
+Total Error: 0.1
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Suppress Gender, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 5, L-Diversity: 3, T-Closeness: 0.2500
+Total Error: 0.1
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Suppress Gender, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 5, L-Diversity: 3, T-Closeness: 0.2500
+Total Error: 0.1
+Transformations Applied: Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Suppress Gender, Bin Total Charge, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 5, L-Diversity: 3, T-Closeness: 0.2500
+Total Error: 0.1
+Transformations Applied: Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Suppress Gender, Bin Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 5, L-Diversity: 3, T-Closeness: 0.2500
+Total Error: 0.1
+Transformations Applied: Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Suppress Gender, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 5, L-Diversity: 3, T-Closeness: 0.2500
+Total Error: 0.1
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Suppress Gender, Bin Total Charge, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 5, L-Diversity: 3, T-Closeness: 0.2500
+Total Error: 0.1
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Suppress Gender, Bin Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 5, L-Diversity: 3, T-Closeness: 0.2500
+Total Error: 0.1
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Suppress Gender, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 5, L-Diversity: 3, T-Closeness: 0.2500
+Total Error: 0.1
+Transformations Applied: Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Suppress Gender, Bin Total Charge, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 5, L-Diversity: 3, T-Closeness: 0.2500
+Total Error: 0.1
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Suppress Gender, Bin Total Charge, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 5, L-Diversity: 3, T-Closeness: 0.2500
+Total Error: 0.1
+Transformations Applied: Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 2, L-Diversity: 2, T-Closeness: 0.3350
+Total Error: 4.185
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 2, L-Diversity: 2, T-Closeness: 0.3350
+Total Error: 4.185
+Transformations Applied: Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Bin Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 2, L-Diversity: 2, T-Closeness: 0.3350
+Total Error: 4.185
+Transformations Applied: Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 2, L-Diversity: 2, T-Closeness: 0.3350
+Total Error: 4.185
+Transformations Applied: Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 2, L-Diversity: 2, T-Closeness: 0.3350
+Total Error: 4.185
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Bin Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 2, L-Diversity: 2, T-Closeness: 0.3350
+Total Error: 4.185
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 2, L-Diversity: 2, T-Closeness: 0.3350
+Total Error: 4.185
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 2, L-Diversity: 2, T-Closeness: 0.3350
+Total Error: 4.185
+Transformations Applied: Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Bin Total Charge, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 2, L-Diversity: 2, T-Closeness: 0.3350
+Total Error: 4.185
+Transformations Applied: Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Bin Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 2, L-Diversity: 2, T-Closeness: 0.3350
+Total Error: 4.185
+Transformations Applied: Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 2, L-Diversity: 2, T-Closeness: 0.3350
+Total Error: 4.185
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Bin Total Charge, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 2, L-Diversity: 2, T-Closeness: 0.3350
+Total Error: 4.185
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Bin Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 2, L-Diversity: 2, T-Closeness: 0.3350
+Total Error: 4.185
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 2, L-Diversity: 2, T-Closeness: 0.3350
+Total Error: 4.185
+Transformations Applied: Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Bin Total Charge, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 2, L-Diversity: 2, T-Closeness: 0.3350
+Total Error: 4.185
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Bin Total Charge, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 2, L-Diversity: 2, T-Closeness: 0.3350
+Total Error: 4.185
+Transformations Applied: Generalize Birth Date to Year
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize ZIP Code to Prefix
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Suppress Gender
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Bin Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Generalize ZIP Code to Prefix
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Suppress Gender
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Bin Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize ZIP Code to Prefix, Suppress Gender
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize ZIP Code to Prefix, Bin Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize ZIP Code to Prefix, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize ZIP Code to Prefix, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Suppress Gender, Bin Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Suppress Gender, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Suppress Gender, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Bin Total Charge, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Bin Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Generalize ZIP Code to Prefix, Suppress Gender
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Generalize ZIP Code to Prefix, Bin Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Generalize ZIP Code to Prefix, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Generalize ZIP Code to Prefix, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Suppress Gender, Bin Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Suppress Gender, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Suppress Gender, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Bin Total Charge, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Bin Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize ZIP Code to Prefix, Suppress Gender, Bin Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize ZIP Code to Prefix, Suppress Gender, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize ZIP Code to Prefix, Suppress Gender, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize ZIP Code to Prefix, Bin Total Charge, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize ZIP Code to Prefix, Bin Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize ZIP Code to Prefix, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Suppress Gender, Bin Total Charge, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Suppress Gender, Bin Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Suppress Gender, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Bin Total Charge, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Generalize ZIP Code to Prefix, Suppress Gender, Bin Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Generalize ZIP Code to Prefix, Suppress Gender, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Generalize ZIP Code to Prefix, Suppress Gender, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Generalize ZIP Code to Prefix, Bin Total Charge, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Generalize ZIP Code to Prefix, Bin Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Generalize ZIP Code to Prefix, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Suppress Gender, Bin Total Charge, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Suppress Gender, Bin Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Suppress Gender, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Bin Total Charge, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize ZIP Code to Prefix, Suppress Gender, Bin Total Charge, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize ZIP Code to Prefix, Suppress Gender, Bin Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize ZIP Code to Prefix, Suppress Gender, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize ZIP Code to Prefix, Bin Total Charge, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Suppress Gender, Bin Total Charge, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Generalize ZIP Code to Prefix, Suppress Gender, Bin Total Charge, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Generalize ZIP Code to Prefix, Suppress Gender, Bin Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Generalize ZIP Code to Prefix, Suppress Gender, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Generalize ZIP Code to Prefix, Bin Total Charge, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Suppress Gender, Bin Total Charge, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize ZIP Code to Prefix, Suppress Gender, Bin Total Charge, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Year, Generalize ZIP Code to Prefix, Suppress Gender, Bin Total Charge, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4250
+Total Error: 6.275
+Transformations Applied: Generalize Birth Date to Age Range
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4442
+Total Error: 6.2942307692307695
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4442
+Total Error: 6.2942307692307695
+Transformations Applied: Generalize Birth Date to Age Range, Bin Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4442
+Total Error: 6.2942307692307695
+Transformations Applied: Generalize Birth Date to Age Range, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4442
+Total Error: 6.2942307692307695
+Transformations Applied: Generalize Birth Date to Age Range, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4442
+Total Error: 6.2942307692307695
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Bin Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4442
+Total Error: 6.2942307692307695
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4442
+Total Error: 6.2942307692307695
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4442
+Total Error: 6.2942307692307695
+Transformations Applied: Generalize Birth Date to Age Range, Bin Total Charge, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4442
+Total Error: 6.2942307692307695
+Transformations Applied: Generalize Birth Date to Age Range, Bin Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4442
+Total Error: 6.2942307692307695
+Transformations Applied: Generalize Birth Date to Age Range, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4442
+Total Error: 6.2942307692307695
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Bin Total Charge, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4442
+Total Error: 6.2942307692307695
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Bin Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4442
+Total Error: 6.2942307692307695
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4442
+Total Error: 6.2942307692307695
+Transformations Applied: Generalize Birth Date to Age Range, Bin Total Charge, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4442
+Total Error: 6.2942307692307695
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Bin Total Charge, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4442
+Total Error: 6.2942307692307695
+Transformations Applied: Generalize Birth Date to Age Range, Suppress Gender
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4843
+Total Error: 6.3342857142857145
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Suppress Gender
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4843
+Total Error: 6.3342857142857145
+Transformations Applied: Generalize Birth Date to Age Range, Suppress Gender, Bin Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4843
+Total Error: 6.3342857142857145
+Transformations Applied: Generalize Birth Date to Age Range, Suppress Gender, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4843
+Total Error: 6.3342857142857145
+Transformations Applied: Generalize Birth Date to Age Range, Suppress Gender, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4843
+Total Error: 6.3342857142857145
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Suppress Gender, Bin Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4843
+Total Error: 6.3342857142857145
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Suppress Gender, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4843
+Total Error: 6.3342857142857145
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Suppress Gender, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4843
+Total Error: 6.3342857142857145
+Transformations Applied: Generalize Birth Date to Age Range, Suppress Gender, Bin Total Charge, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4843
+Total Error: 6.3342857142857145
+Transformations Applied: Generalize Birth Date to Age Range, Suppress Gender, Bin Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4843
+Total Error: 6.3342857142857145
+Transformations Applied: Generalize Birth Date to Age Range, Suppress Gender, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4843
+Total Error: 6.3342857142857145
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Suppress Gender, Bin Total Charge, Top/Bottom Code Total Charge
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4843
+Total Error: 6.3342857142857145
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Suppress Gender, Bin Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4843
+Total Error: 6.3342857142857145
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Suppress Gender, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4843
+Total Error: 6.3342857142857145
+Transformations Applied: Generalize Birth Date to Age Range, Suppress Gender, Bin Total Charge, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4843
+Total Error: 6.3342857142857145
+Transformations Applied: Generalize Birth Date to Year, Generalize Birth Date to Age Range, Suppress Gender, Bin Total Charge, Top/Bottom Code Total Charge, Redact Rare Diagnoses
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 1, L-Diversity: 1, T-Closeness: 0.4843
+Total Error: 6.3342857142857145
+Available transformations:
+1. Generalize Birth Date to Year
+2. Generalize Birth Date to Age Range
+3. Generalize ZIP Code to Prefix
+4. Suppress Gender
+5. Bin Total Charge
+6. Top/Bottom Code Total Charge
+7. Redact Rare Diagnoses
+Modified data saved to 'modified_data.csv'.
+Modified Data Details and Privacy Metrics after Reloading:
+Transformations Applied: Generalize Birth Date to Age Range, Generalize ZIP Code to Prefix, Suppress Gender
+Quasi-Identifiers: ['ZIP_code', 'Birth_date', 'Gender']
+K-Anonymity: 5
+L-Diversity: 3
+T-Closeness: 0.25
+Total Error: 0.1
+Privacy metrics for Reloaded Modified Data:
+K-Anonymity: 5
+L-Diversity: 3
+T-Closeness: 0.2500

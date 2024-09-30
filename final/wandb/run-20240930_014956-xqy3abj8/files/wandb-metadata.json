@@ -1,0 +1,31 @@
+{
+    "os": "macOS-14.4.1-arm64-arm-64bit",
+    "python": "3.10.10",
+    "heartbeatAt": "2024-09-30T06:49:57.550666",
+    "startedAt": "2024-09-30T06:49:56.022947",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/generate_dataset.py",
+    "codePathLocal": "generate_dataset.py",
+    "codePath": "generate_dataset.py",
+    "host": "Bretts-MacBook-Pro-2.local",
+    "username": "brettyoung",
+    "executable": "/Users/brettyoung/miniconda3/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 19.08029556274414
+        }
+    },
+    "gpuapple": {
+        "type": "Apple M1 Pro",
+        "vendor": "sppci_vendor_Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

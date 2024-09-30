@@ -1,0 +1,222 @@
+2024-09-30 02:00:54,333 INFO    StreamThr :81944 [internal.py:wandb_internal():85] W&B internal server running at pid: 81944, started at: 2024-09-30 02:00:54.332711
+2024-09-30 02:00:54,334 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: status
+2024-09-30 02:00:54,338 INFO    WriterThread:81944 [datastore.py:open_for_write():87] open: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/run-j92bnp7d.wandb
+2024-09-30 02:00:54,339 DEBUG   SenderThread:81944 [sender.py:send():391] send: header
+2024-09-30 02:00:54,340 DEBUG   SenderThread:81944 [sender.py:send():391] send: run
+2024-09-30 02:00:55,149 INFO    SenderThread:81944 [dir_watcher.py:__init__():211] watching files in: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files
+2024-09-30 02:00:55,149 INFO    SenderThread:81944 [sender.py:_start_run_threads():1200] run started: j92bnp7d with start time 1727679654.33433
+2024-09-30 02:00:55,155 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: check_version
+2024-09-30 02:00:55,155 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: check_version
+2024-09-30 02:00:55,227 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: run_start
+2024-09-30 02:00:55,235 DEBUG   HandlerThread:81944 [system_info.py:__init__():26] System info init
+2024-09-30 02:00:55,235 DEBUG   HandlerThread:81944 [system_info.py:__init__():41] System info init done
+2024-09-30 02:00:55,235 INFO    HandlerThread:81944 [system_monitor.py:start():194] Starting system monitor
+2024-09-30 02:00:55,235 INFO    SystemMonitor:81944 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-30 02:00:55,236 INFO    HandlerThread:81944 [system_monitor.py:probe():214] Collecting system info
+2024-09-30 02:00:55,236 INFO    SystemMonitor:81944 [interfaces.py:start():188] Started cpu monitoring
+2024-09-30 02:00:55,236 INFO    SystemMonitor:81944 [interfaces.py:start():188] Started disk monitoring
+2024-09-30 02:00:55,236 INFO    SystemMonitor:81944 [interfaces.py:start():188] Started gpuapple monitoring
+2024-09-30 02:00:55,238 INFO    SystemMonitor:81944 [interfaces.py:start():188] Started memory monitoring
+2024-09-30 02:00:55,244 INFO    SystemMonitor:81944 [interfaces.py:start():188] Started network monitoring
+2024-09-30 02:00:55,644 DEBUG   HandlerThread:81944 [system_info.py:probe():152] Probing system
+2024-09-30 02:00:55,648 DEBUG   HandlerThread:81944 [gitlib.py:_init_repo():56] git repository is invalid
+2024-09-30 02:00:55,649 DEBUG   HandlerThread:81944 [system_info.py:probe():200] Probing system done
+2024-09-30 02:00:55,649 DEBUG   HandlerThread:81944 [system_monitor.py:probe():223] {'os': 'macOS-14.4.1-arm64-arm-64bit', 'python': '3.10.10', 'heartbeatAt': '2024-09-30T07:00:55.644216', 'startedAt': '2024-09-30T07:00:54.322731', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/apply_and_mes_transformations.py', 'codePathLocal': 'apply_and_mes_transformations.py', 'codePath': 'apply_and_mes_transformations.py', 'host': 'Bretts-MacBook-Pro-2.local', 'username': 'brettyoung', 'executable': '/Users/brettyoung/miniconda3/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'disk': {'/': {'total': 460.4317207336426, 'used': 19.08029556274414}}, 'gpuapple': {'type': 'Apple M1 Pro', 'vendor': 'sppci_vendor_Apple'}, 'memory': {'total': 16.0}}
+2024-09-30 02:00:55,649 INFO    HandlerThread:81944 [system_monitor.py:probe():224] Finished collecting system info
+2024-09-30 02:00:55,649 INFO    HandlerThread:81944 [system_monitor.py:probe():227] Publishing system info
+2024-09-30 02:00:55,649 DEBUG   HandlerThread:81944 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-09-30 02:00:56,156 INFO    Thread-12 :81944 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/conda-environment.yaml
+2024-09-30 02:01:06,186 INFO    Thread-12 :81944 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/conda-environment.yaml
+2024-09-30 02:01:06,421 DEBUG   HandlerThread:81944 [system_info.py:_save_conda():224] Saving conda packages done
+2024-09-30 02:01:06,422 INFO    HandlerThread:81944 [system_monitor.py:probe():229] Finished publishing system info
+2024-09-30 02:01:06,429 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: keepalive
+2024-09-30 02:01:06,429 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: status_report
+2024-09-30 02:01:06,429 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: keepalive
+2024-09-30 02:01:06,429 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: status_report
+2024-09-30 02:01:06,429 DEBUG   SenderThread:81944 [sender.py:send():391] send: files
+2024-09-30 02:01:06,429 INFO    SenderThread:81944 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-09-30 02:01:06,730 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: python_packages
+2024-09-30 02:01:06,730 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: python_packages
+2024-09-30 02:01:06,730 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-30 02:01:06,730 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-30 02:01:06,731 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: stop_status
+2024-09-30 02:01:07,097 DEBUG   SenderThread:81944 [sender.py:send():391] send: telemetry
+2024-09-30 02:01:07,191 INFO    Thread-12 :81944 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/requirements.txt
+2024-09-30 02:01:07,192 INFO    Thread-12 :81944 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/wandb-metadata.json
+2024-09-30 02:01:07,742 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-30 02:01:08,493 INFO    wandb-upload_0:81944 [upload_job.py:push():130] Uploaded file /var/folders/7z/xf0b524s1sz57ng92d9l6b0r0000gn/T/tmpeeg5w053wandb/uovlpb8f-wandb-metadata.json
+2024-09-30 02:01:08,747 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-30 02:01:08,952 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: log_artifact
+2024-09-30 02:01:08,953 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: log_artifact
+2024-09-30 02:01:09,202 INFO    Thread-12 :81944 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/output.log
+2024-09-30 02:01:09,203 INFO    Thread-12 :81944 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/media/table/Transformation Metrics_0_25189366dadaa8078b7c.table.json
+2024-09-30 02:01:09,203 INFO    Thread-12 :81944 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/media/table
+2024-09-30 02:01:09,203 INFO    Thread-12 :81944 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/media
+2024-09-30 02:01:09,556 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-30 02:01:09,749 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-30 02:01:09,904 INFO    wandb-upload_0:81944 [upload_job.py:push():130] Uploaded file /var/folders/7z/xf0b524s1sz57ng92d9l6b0r0000gn/T/tmpeeg5w053wandb/m3we78fp-media/table/Transformation Metrics_0_25189366dadaa8078b7c.table.json
+2024-09-30 02:01:10,015 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: log_artifact
+2024-09-30 02:01:10,025 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-30 02:01:10,026 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: server_info
+2024-09-30 02:01:10,208 INFO    Thread-12 :81944 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/media/table/Modified Data_1_464abb78f0cfdb4b1cea.table.json
+2024-09-30 02:01:10,209 INFO    Thread-12 :81944 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/media/table
+2024-09-30 02:01:10,968 INFO    wandb-upload_1:81944 [upload_job.py:push():130] Uploaded file /var/folders/7z/xf0b524s1sz57ng92d9l6b0r0000gn/T/tmpeeg5w053wandb/f5xo06r7-media/table/Modified Data_1_464abb78f0cfdb4b1cea.table.json
+2024-09-30 02:01:11,215 INFO    Thread-12 :81944 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/output.log
+2024-09-30 02:01:12,512 INFO    wandb-upload_0:81944 [upload_job.py:push():88] Uploaded file /Users/brettyoung/Library/Application Support/wandb/artifacts/staging/tmplx86vlnr
+2024-09-30 02:01:14,834 INFO    SenderThread:81944 [sender.py:send_request_log_artifact():1537] logged artifact run-j92bnp7d-TransformationMetrics - {'id': 'QXJ0aWZhY3Q6MTI1NDE5OTI1Ng==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ2NDE0MjA0Mw==', 'latestArtifact': None}}
+2024-09-30 02:01:14,835 DEBUG   SenderThread:81944 [sender.py:send():391] send: files
+2024-09-30 02:01:14,835 INFO    SenderThread:81944 [sender.py:_save_file():1466] saving file media/table/Transformation Metrics_0_25189366dadaa8078b7c.table.json with policy now
+2024-09-30 02:01:14,836 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: status_report
+2024-09-30 02:01:14,837 DEBUG   SenderThread:81944 [sender.py:send():391] send: history
+2024-09-30 02:01:14,837 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: summary_record
+2024-09-30 02:01:14,839 INFO    SenderThread:81944 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-30 02:01:14,839 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: log_artifact
+2024-09-30 02:01:15,045 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: keepalive
+2024-09-30 02:01:15,237 INFO    Thread-12 :81944 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/wandb-summary.json
+2024-09-30 02:01:15,659 INFO    wandb-upload_1:81944 [upload_job.py:push():130] Uploaded file /var/folders/7z/xf0b524s1sz57ng92d9l6b0r0000gn/T/tmpeeg5w053wandb/m9gykzxd-media/table/Transformation Metrics_0_25189366dadaa8078b7c.table.json
+2024-09-30 02:01:16,522 INFO    wandb-upload_0:81944 [upload_job.py:push():88] Uploaded file /Users/brettyoung/Library/Application Support/wandb/artifacts/staging/tmpvjetlxs8
+2024-09-30 02:01:17,755 INFO    SenderThread:81944 [sender.py:send_request_log_artifact():1537] logged artifact run-j92bnp7d-ModifiedData - {'id': 'QXJ0aWZhY3Q6MTI1NDE5OTM2OQ==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ2NDE0MjEwOQ==', 'latestArtifact': None}}
+2024-09-30 02:01:17,755 DEBUG   SenderThread:81944 [sender.py:send():391] send: files
+2024-09-30 02:01:17,756 INFO    SenderThread:81944 [sender.py:_save_file():1466] saving file media/table/Modified Data_1_464abb78f0cfdb4b1cea.table.json with policy now
+2024-09-30 02:01:17,756 DEBUG   SenderThread:81944 [sender.py:send():391] send: history
+2024-09-30 02:01:17,757 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: summary_record
+2024-09-30 02:01:17,759 INFO    SenderThread:81944 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-30 02:01:17,759 DEBUG   SenderThread:81944 [sender.py:send():391] send: telemetry
+2024-09-30 02:01:17,760 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: server_info
+2024-09-30 02:01:18,092 DEBUG   SenderThread:81944 [sender.py:send():391] send: exit
+2024-09-30 02:01:18,092 INFO    SenderThread:81944 [sender.py:send_exit():598] handling exit code: 0
+2024-09-30 02:01:18,092 INFO    SenderThread:81944 [sender.py:send_exit():600] handling runtime: 22
+2024-09-30 02:01:18,093 INFO    SenderThread:81944 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-30 02:01:18,093 INFO    SenderThread:81944 [sender.py:send_exit():606] send defer
+2024-09-30 02:01:18,094 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: defer
+2024-09-30 02:01:18,094 INFO    HandlerThread:81944 [handler.py:handle_request_defer():184] handle defer: 0
+2024-09-30 02:01:18,095 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: defer
+2024-09-30 02:01:18,095 INFO    SenderThread:81944 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-09-30 02:01:18,095 INFO    SenderThread:81944 [sender.py:transition_state():626] send defer: 1
+2024-09-30 02:01:18,095 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: defer
+2024-09-30 02:01:18,095 INFO    HandlerThread:81944 [handler.py:handle_request_defer():184] handle defer: 1
+2024-09-30 02:01:18,095 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: defer
+2024-09-30 02:01:18,095 INFO    SenderThread:81944 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-09-30 02:01:18,095 INFO    SenderThread:81944 [sender.py:transition_state():626] send defer: 2
+2024-09-30 02:01:18,095 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: defer
+2024-09-30 02:01:18,095 INFO    HandlerThread:81944 [handler.py:handle_request_defer():184] handle defer: 2
+2024-09-30 02:01:18,095 INFO    HandlerThread:81944 [system_monitor.py:finish():203] Stopping system monitor
+2024-09-30 02:01:18,095 DEBUG   SystemMonitor:81944 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-09-30 02:01:18,096 DEBUG   SystemMonitor:81944 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-09-30 02:01:18,096 INFO    HandlerThread:81944 [interfaces.py:finish():200] Joined cpu monitor
+2024-09-30 02:01:18,096 DEBUG   SystemMonitor:81944 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-09-30 02:01:18,096 INFO    HandlerThread:81944 [interfaces.py:finish():200] Joined disk monitor
+2024-09-30 02:01:18,097 INFO    HandlerThread:81944 [interfaces.py:finish():200] Joined gpuapple monitor
+2024-09-30 02:01:18,097 INFO    HandlerThread:81944 [interfaces.py:finish():200] Joined memory monitor
+2024-09-30 02:01:18,097 INFO    HandlerThread:81944 [interfaces.py:finish():200] Joined network monitor
+2024-09-30 02:01:18,097 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: defer
+2024-09-30 02:01:18,097 INFO    SenderThread:81944 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-09-30 02:01:18,097 INFO    SenderThread:81944 [sender.py:transition_state():626] send defer: 3
+2024-09-30 02:01:18,097 DEBUG   SenderThread:81944 [sender.py:send():391] send: telemetry
+2024-09-30 02:01:18,097 DEBUG   SenderThread:81944 [sender.py:send():391] send: stats
+2024-09-30 02:01:18,098 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: defer
+2024-09-30 02:01:18,098 INFO    HandlerThread:81944 [handler.py:handle_request_defer():184] handle defer: 3
+2024-09-30 02:01:18,098 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: defer
+2024-09-30 02:01:18,098 INFO    SenderThread:81944 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-09-30 02:01:18,098 INFO    SenderThread:81944 [sender.py:transition_state():626] send defer: 4
+2024-09-30 02:01:18,098 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: defer
+2024-09-30 02:01:18,098 INFO    HandlerThread:81944 [handler.py:handle_request_defer():184] handle defer: 4
+2024-09-30 02:01:18,098 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: defer
+2024-09-30 02:01:18,098 INFO    SenderThread:81944 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-09-30 02:01:18,098 INFO    SenderThread:81944 [sender.py:transition_state():626] send defer: 5
+2024-09-30 02:01:18,098 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: defer
+2024-09-30 02:01:18,098 INFO    HandlerThread:81944 [handler.py:handle_request_defer():184] handle defer: 5
+2024-09-30 02:01:18,099 DEBUG   SenderThread:81944 [sender.py:send():391] send: summary
+2024-09-30 02:01:18,099 INFO    SenderThread:81944 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-30 02:01:18,099 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: defer
+2024-09-30 02:01:18,100 INFO    SenderThread:81944 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-09-30 02:01:18,100 INFO    SenderThread:81944 [sender.py:transition_state():626] send defer: 6
+2024-09-30 02:01:18,100 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: defer
+2024-09-30 02:01:18,100 INFO    HandlerThread:81944 [handler.py:handle_request_defer():184] handle defer: 6
+2024-09-30 02:01:18,100 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: defer
+2024-09-30 02:01:18,100 INFO    SenderThread:81944 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-09-30 02:01:18,103 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: status_report
+2024-09-30 02:01:18,251 INFO    Thread-12 :81944 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/wandb-summary.json
+2024-09-30 02:01:18,414 INFO    SenderThread:81944 [sender.py:transition_state():626] send defer: 7
+2024-09-30 02:01:18,414 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: defer
+2024-09-30 02:01:18,414 INFO    HandlerThread:81944 [handler.py:handle_request_defer():184] handle defer: 7
+2024-09-30 02:01:18,415 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: defer
+2024-09-30 02:01:18,415 INFO    SenderThread:81944 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-09-30 02:01:18,617 INFO    wandb-upload_1:81944 [upload_job.py:push():130] Uploaded file /var/folders/7z/xf0b524s1sz57ng92d9l6b0r0000gn/T/tmpeeg5w053wandb/xn433fwb-media/table/Modified Data_1_464abb78f0cfdb4b1cea.table.json
+2024-09-30 02:01:18,697 INFO    SenderThread:81944 [sender.py:transition_state():626] send defer: 8
+2024-09-30 02:01:18,697 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: defer
+2024-09-30 02:01:18,697 INFO    HandlerThread:81944 [handler.py:handle_request_defer():184] handle defer: 8
+2024-09-30 02:01:18,697 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: defer
+2024-09-30 02:01:18,698 INFO    SenderThread:81944 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-09-30 02:01:18,698 INFO    SenderThread:81944 [job_builder.py:build():440] Attempting to build job artifact
+2024-09-30 02:01:18,698 INFO    SenderThread:81944 [job_builder.py:_get_source_type():580] no source found
+2024-09-30 02:01:18,698 INFO    SenderThread:81944 [sender.py:transition_state():626] send defer: 9
+2024-09-30 02:01:18,698 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: defer
+2024-09-30 02:01:18,698 INFO    HandlerThread:81944 [handler.py:handle_request_defer():184] handle defer: 9
+2024-09-30 02:01:18,699 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: defer
+2024-09-30 02:01:18,699 INFO    SenderThread:81944 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-09-30 02:01:18,699 INFO    SenderThread:81944 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-09-30 02:01:19,096 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-30 02:01:19,255 INFO    SenderThread:81944 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/output.log
+2024-09-30 02:01:19,255 INFO    SenderThread:81944 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/config.yaml
+2024-09-30 02:01:19,255 INFO    SenderThread:81944 [dir_watcher.py:finish():388] scan: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files
+2024-09-30 02:01:19,256 INFO    SenderThread:81944 [dir_watcher.py:finish():402] scan save: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/requirements.txt requirements.txt
+2024-09-30 02:01:19,256 INFO    SenderThread:81944 [dir_watcher.py:finish():402] scan save: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/output.log output.log
+2024-09-30 02:01:19,259 INFO    SenderThread:81944 [dir_watcher.py:finish():402] scan save: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/config.yaml config.yaml
+2024-09-30 02:01:19,259 INFO    SenderThread:81944 [dir_watcher.py:finish():402] scan save: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/wandb-summary.json wandb-summary.json
+2024-09-30 02:01:19,259 INFO    SenderThread:81944 [dir_watcher.py:finish():402] scan save: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/conda-environment.yaml conda-environment.yaml
+2024-09-30 02:01:19,259 INFO    SenderThread:81944 [dir_watcher.py:finish():402] scan save: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/wandb-metadata.json wandb-metadata.json
+2024-09-30 02:01:19,264 INFO    SenderThread:81944 [dir_watcher.py:finish():402] scan save: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/media/table/Transformation Metrics_0_25189366dadaa8078b7c.table.json media/table/Transformation Metrics_0_25189366dadaa8078b7c.table.json
+2024-09-30 02:01:19,265 INFO    SenderThread:81944 [dir_watcher.py:finish():402] scan save: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/media/table/Modified Data_1_464abb78f0cfdb4b1cea.table.json media/table/Modified Data_1_464abb78f0cfdb4b1cea.table.json
+2024-09-30 02:01:19,265 INFO    SenderThread:81944 [sender.py:transition_state():626] send defer: 10
+2024-09-30 02:01:19,265 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: poll_exit
+2024-09-30 02:01:19,265 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: defer
+2024-09-30 02:01:19,265 INFO    HandlerThread:81944 [handler.py:handle_request_defer():184] handle defer: 10
+2024-09-30 02:01:19,266 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: defer
+2024-09-30 02:01:19,266 INFO    SenderThread:81944 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-09-30 02:01:19,266 INFO    SenderThread:81944 [file_pusher.py:finish():169] shutting down file pusher
+2024-09-30 02:01:20,064 INFO    wandb-upload_0:81944 [upload_job.py:push():130] Uploaded file /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/requirements.txt
+2024-09-30 02:01:20,083 INFO    wandb-upload_3:81944 [upload_job.py:push():130] Uploaded file /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/wandb-summary.json
+2024-09-30 02:01:20,102 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-30 02:01:20,104 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: poll_exit
+2024-09-30 02:01:20,210 INFO    wandb-upload_4:81944 [upload_job.py:push():130] Uploaded file /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/conda-environment.yaml
+2024-09-30 02:01:20,375 INFO    wandb-upload_2:81944 [upload_job.py:push():130] Uploaded file /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/output.log
+2024-09-30 02:01:21,045 INFO    wandb-upload_1:81944 [upload_job.py:push():130] Uploaded file /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/files/config.yaml
+2024-09-30 02:01:21,107 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-30 02:01:21,108 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: poll_exit
+2024-09-30 02:01:21,250 INFO    Thread-11 (_thread_body):81944 [sender.py:transition_state():626] send defer: 11
+2024-09-30 02:01:21,251 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: defer
+2024-09-30 02:01:21,251 INFO    HandlerThread:81944 [handler.py:handle_request_defer():184] handle defer: 11
+2024-09-30 02:01:21,251 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: defer
+2024-09-30 02:01:21,251 INFO    SenderThread:81944 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-09-30 02:01:21,251 INFO    SenderThread:81944 [file_pusher.py:join():175] waiting for file pusher
+2024-09-30 02:01:21,255 INFO    SenderThread:81944 [sender.py:transition_state():626] send defer: 12
+2024-09-30 02:01:21,255 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: defer
+2024-09-30 02:01:21,255 INFO    HandlerThread:81944 [handler.py:handle_request_defer():184] handle defer: 12
+2024-09-30 02:01:21,255 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: defer
+2024-09-30 02:01:21,255 INFO    SenderThread:81944 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-09-30 02:01:21,255 INFO    SenderThread:81944 [file_stream.py:finish():601] file stream finish called
+2024-09-30 02:01:21,578 INFO    SenderThread:81944 [file_stream.py:finish():605] file stream finish is done
+2024-09-30 02:01:21,578 INFO    SenderThread:81944 [sender.py:transition_state():626] send defer: 13
+2024-09-30 02:01:21,579 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: defer
+2024-09-30 02:01:21,580 INFO    HandlerThread:81944 [handler.py:handle_request_defer():184] handle defer: 13
+2024-09-30 02:01:21,580 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: defer
+2024-09-30 02:01:21,580 INFO    SenderThread:81944 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-09-30 02:01:21,580 INFO    SenderThread:81944 [sender.py:transition_state():626] send defer: 14
+2024-09-30 02:01:21,581 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: defer
+2024-09-30 02:01:21,581 DEBUG   SenderThread:81944 [sender.py:send():391] send: final
+2024-09-30 02:01:21,581 INFO    HandlerThread:81944 [handler.py:handle_request_defer():184] handle defer: 14
+2024-09-30 02:01:21,581 DEBUG   SenderThread:81944 [sender.py:send():391] send: footer
+2024-09-30 02:01:21,581 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: defer
+2024-09-30 02:01:21,581 INFO    SenderThread:81944 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-09-30 02:01:21,582 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-30 02:01:21,582 DEBUG   SenderThread:81944 [sender.py:send_request():418] send_request: poll_exit
+2024-09-30 02:01:21,583 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-30 02:01:21,584 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: get_summary
+2024-09-30 02:01:21,584 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: sampled_history
+2024-09-30 02:01:21,585 DEBUG   HandlerThread:81944 [handler.py:handle_request():158] handle_request: shutdown
+2024-09-30 02:01:21,585 INFO    HandlerThread:81944 [handler.py:finish():882] shutting down handler
+2024-09-30 02:01:22,588 INFO    WriterThread:81944 [datastore.py:close():296] close: /Users/brettyoung/Desktop/dev_24/tutorials/phi_anon/final/wandb/run-20240930_020054-j92bnp7d/run-j92bnp7d.wandb
+2024-09-30 02:01:22,588 INFO    SenderThread:81944 [sender.py:finish():1631] shutting down sender
+2024-09-30 02:01:22,588 INFO    SenderThread:81944 [file_pusher.py:finish():169] shutting down file pusher
+2024-09-30 02:01:22,588 INFO    SenderThread:81944 [file_pusher.py:join():175] waiting for file pusher
